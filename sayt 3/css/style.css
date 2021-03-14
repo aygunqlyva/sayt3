@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 0 100px;
+}
+
+.header {
+  margin: 25px 0;
+  width: 82%;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .sol {
+  width: 20%;
+}
+
+.header .sol a {
+  text-decoration: none;
+  color: #FFFFFFB3;
+  font-size: 24px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.header .sol a:hover {
+  color: #fff;
+}
+
+.header .sag {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header .sag a {
+  text-decoration: none;
+  color: #FFFFFFB3;
+  font-size: 18px;
+  margin-left: 35px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.header .sag a:hover {
+  color: #fff;
+}
+
+.bir {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+  padding: 14rem 0;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  position: relative;
+}
+
+.bir h1 {
+  color: #fff;
+  font-size: 56px;
+  margin-bottom: 25px;
+}
+
+.bir p {
+  font-size: 18.4px;
+  color: #FFFFFFBF;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.bir a {
+  padding: 21px 32px;
+  color: #fff;
+  background-color: #F4623A;
+  text-decoration: none;
+  border-radius: 30px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.bir a:hover {
+  background-color: #d6370c;
+}
+
+.bir hr {
+  background-color: #F4623A;
+  border: none;
+  width: 50px;
+  height: 2.8px;
+  margin: auto;
+}
+
+.bir .overlay {
+  background: color #804f42;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.iki {
+  padding: 6rem 0;
+}
+
+.iki .text {
+  text-align: center;
+}
+
+.iki .text h2 {
+  font-size: 32px;
+  color: #212526;
+  margin-bottom: 20px;
+}
+
+.iki hr {
+  background-color: #F4623A;
+  border: none;
+  width: 50px;
+  height: 2.8px;
+  margin: auto;
+}
+
+.iki .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 60px 150px;
+}
+
+.iki .icon .col {
+  text-align: center;
+  width: 25%;
+  color: #F4623A;
+}
+
+.iki .icon i {
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+.iki .icon .text h3 {
+  color: #212526;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.iki .icon .text p {
+  color: #6c757d;
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */

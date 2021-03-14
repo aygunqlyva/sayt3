@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 100px;
+}
+.header{ 
+    margin: 25px 0;
+    width: 82%;
+    position: fixed;
+    display: flex;
+    .sol{
+        width: 20%;
+        a{
+        text-decoration: none;
+        color:#FFFFFFB3 ;
+        font-size:24px ;
+        transition: 0.6s;
+        &:hover{
+           color: #fff;
+        }
+        }
+    }
+    .sag{
+        width: 80%;
+        display: flex;
+        justify-content: flex-end;
+        a{
+        text-decoration: none;
+        color: #FFFFFFB3; 
+        font-size:18px ;
+        margin-left: 35px;
+        transition: 0.6s;
+        &:hover{
+            color: #fff;
+        }
+        }
+    }
+}
+
+.bir{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    padding: 14rem 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    h1{
+        color: #fff;
+        font-size: 56px;
+        margin-bottom: 25px;
+    }
+    p{
+        font-size: 18.4px;
+        color: #FFFFFFBF;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    a{
+        padding: 21px 32px;
+        color: #fff;
+        background-color: #F4623A;
+        text-decoration: none;
+        border-radius: 30px;
+        transition: 0.6s;
+        &:hover{
+            background-color: #d6370c;
+        }
+    }
+    hr{
+        background-color: #F4623A;
+        border: none;
+        width: 50px;
+        height: 2.8px;
+        margin: auto;
+    }
+
+    .overlay{
+        background: color #804f42;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+
+.iki{
+    padding: 6rem 0;
+    .text{
+        text-align: center;
+        h2{
+            font-size: 32px;
+            color: #212526;
+            margin-bottom: 20px;
+        }
+    }
+    hr{
+        background-color: #F4623A;
+        border: none;
+        width:50px ;
+        height:2.8px ;
+        margin: auto;
+    }
+
+    .icon{
+        display: flex;
+        padding: 60px 150px;
+        .col{
+            text-align: center;
+            width: 25%;
+            color: #F4623A;
+        }
+        i{
+           font-size: 65px;
+           margin-bottom: 20px;
+        }
+        .text{
+            h3{
+                color: #212526;
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+            p{
+                color: #6c757d;
+                font-size: 16px;
+            }
+        }
+    }
+}
